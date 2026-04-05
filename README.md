@@ -1,4 +1,4 @@
-# ⚡ Combined Cycle Power Plant - Energy Output Prediction
+# Combined Cycle Power Plant - Energy Output Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
