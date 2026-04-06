@@ -1,4 +1,4 @@
-# Combined Cycle Power Plant - Energy Output Prediction
+# ⚡ Combined Cycle Power Plant - Energy Output Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -71,20 +71,5 @@ An R-squared of **0.96** indicates that our model explains 96% of the variance i
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YourUsername/ccpp-energy-prediction.git](https://github.com/YourUsername/ccpp-energy-prediction.git)
+   git clone https://github.com/YourUsername/ccpp-energy-prediction.git
    cd ccpp-energy-prediction
-
-2. ** Set up a virtual environment (Recommended):** 
-
-**Bash**
-```python -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-Install dependencies:
-
-3. **Bash:**
-```pip install pandas numpy scikit-learn
-Run the model script:
-
-4. **Bash** 
-``` python model.py
-Developed by Moses Bargue Kortu Jr for the Machine Learning Modeling Project.
