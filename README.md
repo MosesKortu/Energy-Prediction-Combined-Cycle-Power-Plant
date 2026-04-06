@@ -76,15 +76,15 @@ An R-squared of **0.96** indicates that our model explains 96% of the variance i
 
 2. ** Set up a virtual environment (Recommended):** 
 
-Bash
+**Bash**
 ```python -m venv .venv
 source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 Install dependencies:
 
-3. ** Bash **
+3. **Bash:**
 ```pip install pandas numpy scikit-learn
 Run the model script:
 
-4. ** Bash ** 
+4. **Bash** 
 ``` python model.py
 Developed by Moses Bargue Kortu Jr for the Machine Learning Modeling Project.
