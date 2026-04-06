@@ -51,3 +51,40 @@ The models were evaluated using **Root Mean Squared Error (RMSE)**—which measu
 | :--- | :---: | :---: | :---: |
 | **Linear Regression** | 4.31 MW | ~4.31 MW | - |
 | **Random Forest** 🌟 | **3.40 MW** | **~3.40 MW** | **~ 0.96** |
+
+
+### Interpretation
+The **Random Forest model** outperformed the baseline by **21%**. Because it is an ensemble of hundreds of decision trees, it inherently captured the non-linear interactions between temperature, humidity, and vacuum pressure that the rigid Linear Regression model missed. 
+
+An R-squared of **0.96** indicates that our model explains 96% of the variance in the power plant's output. Furthermore, an average error of just **3.40 MW** (on a scale of 420-495 MW) proves this model is highly reliable for production-grade forecasting.
+
+---
+
+## 🚀 Next Steps & Future Work
+1. **Hyperparameter Tuning:** Utilize `GridSearchCV` to optimize `n_estimators`, `max_depth`, and `min_samples_split` to push RMSE below 3.0 MW.
+2. **Deployment:** Containerize the model using Docker and expose it via a FastAPI REST endpoint to connect to live plant sensor data streams.
+3. **Model Monitoring:** Track prediction drift over time and schedule quarterly retraining pipelines to adapt to shifting seasonal baselines.
+
+---
+
+## 💻 How to Run This Project Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YourUsername/ccpp-energy-prediction.git](https://github.com/YourUsername/ccpp-energy-prediction.git)
+   cd ccpp-energy-prediction
+
+2. ** Set up a virtual environment (Recommended):** 
+
+Bash
+```python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+Install dependencies:
+
+3. ** Bash **
+```pip install pandas numpy scikit-learn
+Run the model script:
+
+4. ** Bash ** 
+``` python model.py
+Developed by Moses Bargue Kortu Jr for the Machine Learning Modeling Project.
