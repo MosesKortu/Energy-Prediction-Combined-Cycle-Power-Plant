@@ -71,5 +71,5 @@ An R-squared of **0.96** indicates that our model explains 96% of the variance i
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YourUsername/ccpp-energy-prediction.git
+   git clone https://github.com/MosesBargueKortuJr/ccpp-energy-prediction.git
    cd ccpp-energy-prediction
